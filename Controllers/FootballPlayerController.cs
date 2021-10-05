@@ -20,7 +20,7 @@ namespace OblRestExcercise.Controllers
 
 		// GET: api/<FootballPlayerController>
 		[HttpGet]
-		public IEnumerable<FootballPlayer> Get()
+		public IEnumerable<FootballPlayer> GetAll()
 		{
 			return _manager.GetAll();
 		}
